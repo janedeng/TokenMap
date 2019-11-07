@@ -28,7 +28,6 @@ public class TokenMap {
 	                DCAwareRoundRobinPolicy.builder()
 	                 //       .withLocalDc(localdc)
 	                        .withUsedHostsPerRemoteDc(0)
-	                        .allowRemoteDCsForLocalConsistencyLevel()
 	                        .build())
 					.withCredentials(username, password)
 					.build();
